@@ -1,10 +1,10 @@
 {
   "version": "Notebook/1.0",
   "items": [
-    {
+        {
       "type": 1,
       "content": {
-        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
+        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"\" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
       },
       "name": "Header Text"
     },
@@ -69,7 +69,7 @@
             },
             "queryType": 1,
             "resourceType": "microsoft.resourcegraph/resources",
-            "value": ""
+            "value": "/subscriptions/91b9b33d-4554-4cee-82be-2a6f9bc2de4c/resourceGroups/rg-cwmonitoring-prod-001/providers/microsoft.insights/workbooks/500bf28b-e19d-4ee1-9cb9-c9ed6024b0c1"
           },
           {
             "id": "831f399a-8ae6-4adf-af9f-abeeffeccad3",
