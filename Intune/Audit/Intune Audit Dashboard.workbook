@@ -4,7 +4,7 @@
     {
       "type": 1,
       "content": {
-        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"https://url.domain" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
+        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
       },
       "name": "Header Text"
     },
@@ -13,7 +13,7 @@
       "content": {
         "version": "KqlParameterItem/1.0",
         "crossComponentResources": [
-          "{LogWorkspace}"
+          "{Subscription}"
         ],
         "parameters": [
           {
@@ -184,12 +184,12 @@
             },
             "queryType": 0,
             "resourceType": "microsoft.operationalinsights/workspaces",
-            "id": "023736cf-82cc-401a-aa78-868f08d805ae"
+            "id": "32350584-4f25-4052-b134-e49b66f2835e"
           }
         ],
         "style": "pills",
-        "queryType": 0,
-        "resourceType": "microsoft.operationalinsights/workspaces"
+        "queryType": 1,
+        "resourceType": "microsoft.resourcegraph/resources"
       },
       "customWidth": "50",
       "name": "WorkbookParameters"
@@ -281,8 +281,7 @@
             "jsonData": " [{ \"value\": \"1\", \"label\": \"Yes\" },{ \"value\": \"2\", \"label\": \"No\", \"selected\":true}, { \"value\": \"3\", \"label\": \"Change Log\"}]",
             "timeContext": {
               "durationMs": 86400000
-            },
-            "value": "3"
+            }
           }
         ],
         "style": "formHorizontal",
@@ -2308,7 +2307,7 @@
                     "formatOptions": {
                       "linkColumn": "AuditEventId",
                       "linkTarget": "WorkbookTemplate",
-                      "linkIsContextBlade": false,
+                      "linkIsContextBlade": true,
                       "workbookContext": {
                         "componentIdSource": "parameter",
                         "componentId": "DetailsWorkbook",
@@ -2678,6 +2677,9 @@
               "showExportToExcel": true,
               "queryType": 0,
               "resourceType": "microsoft.operationalinsights/workspaces",
+              "crossComponentResources": [
+                "{LogWorkspace}"
+              ],
               "gridSettings": {
                 "formatters": [
                   {
