@@ -4,7 +4,7 @@
     {
       "type": 1,
       "content": {
-        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
+        "json": "<!--\r\nAdd link to your logo below. \r\nIf you don't want a logo, you can just delete the line below. -->\r\n<img src=\"https://url.domain" height=\"100\" alt=\"Edit to get your logo here\">\r\n<!--Do not delete below here -->\r\n## Intune Audit Dashboard\r\nThis dashboard provides an overview of administrative actions carried out within the Intune environment. Toggle ** Show Help ** to get more information on how to navigate this workbook. "
       },
       "name": "Header Text"
     },
